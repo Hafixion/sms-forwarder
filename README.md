@@ -165,7 +165,7 @@ There are no instrumentation or emulator tests.
 `.github/workflows/android.yml` runs on every push, pull request and manual dispatch:
 
 - checkout, Temurin JDK 17
-- `android-actions/setup-android@v3`, then installs `platforms;android-35` and
+- the runner's preinstalled Android SDK, then installs `platforms;android-35` and
   `build-tools;35.0.0`
 - `gradle/actions/setup-gradle@v4` with Gradle 8.9
 - `gradle :app:testDebugUnitTest --no-daemon` then
