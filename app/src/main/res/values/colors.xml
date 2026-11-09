@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- A single brand colour pair. The DayNight theme supplies the surfaces,
+         so these values must read on both a white and a near-black background. -->
+    <color name="relay_primary">#FF1B6CA8</color>
+    <color name="relay_primary_dark">#FF124A74</color>
+    <color name="relay_secondary">#FF00796B</color>
+    <color name="relay_secondary_dark">#FF00574B</color>
+    <color name="relay_on_primary">#FFFFFFFF</color>
+
+    <color name="ic_launcher_background">#FF1B6CA8</color>
+    <color name="ic_launcher_foreground">#FFFFFFFF</color>
+</resources>

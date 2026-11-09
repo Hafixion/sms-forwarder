@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App name and all UI text. Apostrophes are avoided or escaped. -->
+    <string name="app_name">SMS Relay</string>
+    <string name="subtitle">Forwards matching text messages to your email.</string>
+
+    <string name="section_email">Email</string>
+    <string name="section_filter">What to forward</string>
+
+    <string name="hint_host">SMTP host</string>
+    <string name="hint_port">Port</string>
+    <string name="hint_username">SMTP username</string>
+    <string name="hint_password">App password</string>
+    <string name="hint_from">From address (optional)</string>
+    <string name="hint_to">Send to</string>
+    <string name="hint_sender_filter">Sender filter</string>
+    <string name="hint_body_filter">Body filter (optional)</string>
+
+    <string name="helper_port">465 uses TLS. Any other port uses STARTTLS.</string>
+    <string name="helper_from">Leave empty to use the SMTP username.</string>
+    <string name="helper_sender_filter">Required. Separate terms with |. Case-insensitive, matches part of the sender.</string>
+    <string name="helper_body_filter">Optional. Separate terms with |. Empty forwards every message from a matching sender.</string>
+
+    <string name="enable_forwarding">Enable forwarding</string>
+    <string name="forwarding_note">Android may delay delivery. There is no delivery guarantee.</string>
+
+    <string name="save">Save</string>
+    <string name="send_test">Send test email</string>
+    <string name="sending">Sending…</string>
+    <string name="grant_sms">Grant SMS permission</string>
+    <string name="permission_granted">SMS permission granted</string>
+
+    <string name="status_saved">Saved.</string>
+    <string name="status_saved_needs_permission">Saved. Grant SMS permission so messages can be received.</string>
+    <string name="status_testing">Sending test email…</string>
+    <string name="status_test_sent">Test email sent to %1$s.</string>
+    <string name="status_test_failed">Test failed: %1$s</string>
+    <string name="status_permission_granted">SMS permission granted.</string>
+    <string name="status_permission_denied">SMS permission denied. Allow it in Settings > Apps > SMS Relay > Permissions.</string>
+
+    <string name="error_host_required">SMTP host is required.</string>
+    <string name="error_host_space">SMTP host must not contain spaces.</string>
+    <string name="error_port">Port must be a number from 1 to 65535.</string>
+    <string name="error_username">SMTP username is required.</string>
+    <string name="error_password">App password is required.</string>
+    <string name="error_to">Enter a valid destination address.</string>
+    <string name="error_from">Enter a valid from address, or leave it empty.</string>
+    <string name="error_sender_filter">Sender filter is required, otherwise nothing is forwarded.</string>
+
+    <string name="test_body">SMS Relay test message sent at %1$s.</string>
+</resources>

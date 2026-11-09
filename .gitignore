@@ -1,0 +1,24 @@
+# Gradle
+.gradle/
+build/
+app/build/
+local.properties
+
+# IDE
+.idea/
+*.iml
+captures/
+
+# Native build leftovers
+.externalNativeBuild/
+.cxx/
+
+# Build outputs and signing material
+*.apk
+*.aab
+*.keystore
+*.jks
+
+# OS/editor noise
+.DS_Store
+Thumbs.db

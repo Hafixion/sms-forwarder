@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- NoActionBar: the screen draws its own title. The status and navigation
+         bars are transparent and MainActivity pads for their insets, which is
+         what targetSdk 35 edge-to-edge requires. -->
+    <style name="Theme.SmsRelay" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/relay_primary</item>
+        <item name="colorPrimaryVariant">@color/relay_primary_dark</item>
+        <item name="colorOnPrimary">@color/relay_on_primary</item>
+        <item name="colorSecondary">@color/relay_secondary</item>
+        <item name="colorSecondaryVariant">@color/relay_secondary_dark</item>
+        <item name="colorOnSecondary">@color/relay_on_primary</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>
